@@ -4,6 +4,7 @@ for(let i=0;i<10;i++){
   let x = Math.floor(Math.random() * 3);
   
   let y=prompt("your turn");
+  console.log("you choose "+y);
   if(x==1){
     console.log("bot choose snake")
   }
